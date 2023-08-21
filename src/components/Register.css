@@ -52,18 +52,18 @@
 .button:hover {
     background-color: #00845c !important;
 }
-.loading{
+.my_loading{
   display: flex;
   justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .form {
-    min-width: 24rem;
+    min-width: 24rem !important;
   }
 
   .content{
-    display: flex;
-    justify-content: flex-end;
-    height: fit-content;
+    display: flex !important;
+    justify-content: flex-end !important;
+    height: fit-content !important;
   }
 }
